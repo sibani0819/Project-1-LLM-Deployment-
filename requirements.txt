@@ -1,0 +1,42 @@
+# Core FastAPI dependencies
+fastapi==0.119.0
+uvicorn[standard]==0.25.0
+pydantic==2.11.7
+python-multipart==0.0.20
+
+# HTTP and API clients
+requests==2.32.5
+httpx==0.28.1
+
+# GitHub integration
+PyGithub==2.8.1
+
+# OpenAI integration
+openai==1.99.9
+
+# Environment and configuration
+python-dotenv==1.1.1
+
+# Logging and monitoring
+python-json-logger==3.3.0
+
+# Security and validation
+email-validator==2.3.0
+
+# Async support
+aiofiles==23.2.1
+
+# Development and testing (optional)
+pytest==8.4.2
+pytest-asyncio==0.23.8
+black==25.1.0
+flake8==7.3.0
+
+# Database support (for future use)
+# sqlalchemy==2.0.43
+# psycopg2-binary==2.9.10
+# alembic==1.16.5
+
+# Redis support (for future use)
+# redis==5.1.0
+# celery==5.3.6
